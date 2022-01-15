@@ -1,0 +1,52 @@
+body {
+	background-color: #000;
+}
+
+h1 {
+	color: #6c2eb9;
+	position: center;
+    text-align: center;
+	font-weight: 10;
+	font-size: 50px;
+	font-family: 'Neonderthaw', cursive;
+	}
+
+.flex-container {
+	display: flex;
+	position: center;
+	background: #044;
+	border: 10px solid #022;
+	max-width: 400px;	
+	margin: 0 auto;	
+    justify-content: center;
+
+}
+
+.form {
+	min-width: 400px;
+	flex: 1;
+	text-align: center;
+	padding: 30px;
+	} 
+
+input {
+	margin: 2px;
+	border: 2px solid #000;
+	text-align: center;
+}
+
+.form__select {
+	margin: 20px;
+	position: center;
+}
+
+.form__result {
+	width: 70px;
+	text-align: center;
+}
+
+.form input[type="submit"]:hover {
+	background-color: #888;
+	border: 2px solid #fff;	
+	cursor: pointer;
+}	

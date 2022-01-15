@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PHP Calculator</title>
+</head>
+<body>
+
+	<h1>PHP Calculator</h1>
+
+	<div class="flex-container">
+		<form class="form" action=calculator.php method="post">
+			<div>
+				<input type="number" step="any" class="form__input" placeholder="Number 1" name="num1" required>
+			</div>
+			<div>
+				<input type="number" step="any" class="form__input" placeholder="Number 2" name="num2" required>
+			</div>
+			<div class="form__select">
+				<select name="operation">
+					<option>Addition</option>
+					<option>Subtraction</option>
+					<option>Multiplication</option>
+					<option>Division</option>
+				</select>
+			</div>
+			<div>
+				<input type="submit" name="button" id="button" value="Result" class="form__result">
+			</div>
+
+		</form>
+	</div>
+</body>
+</html>
